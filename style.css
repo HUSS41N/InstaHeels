@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: "Lato", sans-serif;
+}
+button{
+    padding: 1.5rem 3rem;
+    font-size: 1.5rem;
+    border: 3px solid rgb(73, 46, 104);
+    background-color: rgb(73, 46, 104);
+    color: white;
+    margin: 2rem;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(73, 46, 104);
+    background-color: white;
+    border: 3px solid rgb(73, 46, 104);
+    transition: 0.5s;
+}
+/* Brand */
+.main-head {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Pacifico", cursive;
+}
+
+/* hero section */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero img {
+  width: 100%;
+}
+.img-container {
+  flex: 1 1 50rem;
+  order: 2;
+}
+.hero-content {
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.blue-letter-spacing{
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.25rem;
+    color: rgb(73, 46, 104);
+}
+.hero-content h2{
+    font-size: 4rem;
+    margin: 2rem;
+}
+.hero-content ul{
+    list-style: none;
+    font-size: 2rem;
+}
+.fa-check{
+    margin-right: 1rem;
+}
+.hero li{
+    margin: 1rem;
+}
+
+.border{
+    color: rgb(73, 46, 104);
+    background-color: white;
+    border: 3px solid rgb(73, 46, 104);
+}
+.border:hover{
+    background-color: rgb(73, 46, 104);
+    color: white;
+    transition: 0.5s;
+}
+
+/* Features */
+.features{
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.features h2{
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+.product-features{
+  display: flex;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+}
+.product-features div{
+  flex: 1 1 33rem;
+  margin: 2rem;
+  padding-top: 2rem;
+}
+.product-features img{
+  height: 2rem;
+}
+.product-features h3{
+  font-size: 3rem;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  letter-spacing: 0.5rem;
+}
+.product-features p {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+/* Hero Latest Fashion */
+.latest-fashion .hero-content{
+  order: 4;
+}
+.latest-fashion p{
+  font-size: 2rem;
+  padding: 3rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.grey-background{
+  background-color: rgb(253, 253, 253);
+}
+/* HypeBae */
+.hypebae{
+  background-color: rgb(253, 253, 253);
+  margin-top: 4rem;
+}
+.hypebae p {
+  font-size: 2rem;
+  padding: 3rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+.hypebae .grey-background{
+  background-color: white;
+}
+
+/* pricing */
+.pricing header{
+  margin-top: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.pricing-card{
+  margin-top: 2rem;
+  background-color: rgb(241, 241, 241);
+  display: flex;
+  padding: 3rem;
+  flex-wrap: wrap;
+}
+.price{
+  flex: 1 1 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.price .blue-letter-spacing{
+  color: rgb(68, 68, 255);
+  margin-bottom: 0.5rem;
+}
+.price h1{
+  font-size: 4rem;
+  color: rgb(54, 54, 54);
+}
+.price li{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  list-style: none;
+  color: rgb(54, 54, 54);
+}
+.pricing-desc{
+  flex: 6 1 30rem;
+  font-size: 1.5rem;
+}
+.pricing-card h2{
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+.pricing-card p{
+  line-height: 3rem;
+  font-size: 1.5rem;
+}
+
+/* Testimonial */
+.testimonial img{
+  width: 60%;
+}
+.testimonial{
+  display: flex;
+  margin-top: 3rem;
+  flex-wrap: wrap;
+  background-color: rgb(253, 253, 253);
+  padding: 2rem;
+}
+.testimonial .card{
+  flex: 1 1 33rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 40rem;
+  margin: auto;
+  text-align: center;
+}
+.testimonial p {
+  font-size: 1.5rem;
+  padding-top: 2rem;
+}
+.testimonial h2{
+  font-size: 3rem;
+}
+
+/* Footer */
+footer{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  background-color: rgb(241, 241, 241);
+}
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .pricing-card p span{ display: none; } 
+}
+
+@media (max-width: 768px) {
+  .latest-fashion .hero-content{
+    order: 1;
+  }
+  .latest-fashion p{
+    padding: 1rem;
+  }
+
+  .hypebae p{
+    padding: 1rem;
+  }
+  .pricing-card p{
+    line-height: 2rem;
+  }
+  .testimonial img{
+    width: 50%;
+  }
+  body {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+@media(max-width:460px){
+    html {
+        font-size: 50%;
+      }
+}
