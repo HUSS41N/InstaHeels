@@ -1,0 +1,73 @@
+.about-us{
+    font-size: 2rem;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+}
+.about-us h1{
+    font-size: 6rem;
+    margin: 1rem;
+}
+.achievements-wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.achievement{
+    flex: 1;
+    margin: 2rem;
+    padding: 2rem;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+}
+
+/* Soical Media */
+.social-media{
+    font-size: 4rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+.social-media-flex-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+}
+.social-media .social-icon{
+    margin: auto;
+    border: 2px solid rgb(253, 253, 253);
+    padding: 1rem;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    border-radius: 100px;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.45);
+}
+.social-media .social-icon a{
+    text-decoration: none;
+    color:  rgb(73, 46, 104);
+}
+.social-media .social-icon:hover{
+    position: relative;
+    bottom: 4px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.45);
+}
+/* Gallery */
+.gallery{
+    font-size: 3rem;
+    text-align: center;
+}
+/* media Queries */
+@media(max-width:1080px){
+    .social-media-flex-wrapper{
+        width: 100%;
+    }
+    .social-media .social-icon{
+        font-size: 3rem;
+    }
+}

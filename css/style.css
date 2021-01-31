@@ -31,6 +31,8 @@ button:hover{
 .main-head {
   font-size: 2rem;
   font-family: "Pacifico", cursive;
+  position: sticky;
+  top: 0;
 }
 nav{
   display: flex;
@@ -45,6 +47,10 @@ nav{
 nav h1{
   cursor: pointer;
 }
+nav h1 a{
+  text-decoration: none;
+  color: black;
+}
 nav .nav-links{
   display: flex;
   flex: 1 1 40rem;
@@ -55,7 +61,7 @@ nav .nav-links li a{
   text-decoration: none;
   color: black;
 }
-nav .nav-links li:hover{
+nav .nav-links li a:hover{
   color:rgb(73, 46, 104);
   cursor: pointer;
   border-bottom: 4px solid rgb(73, 46, 104);
