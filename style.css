@@ -29,14 +29,40 @@ button:hover{
 }
 /* Brand */
 .main-head {
-  min-height: 10vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-size: 2rem;
   font-family: "Pacifico", cursive;
 }
-
+nav{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  min-height: 10vh;
+  margin: auto;
+  background-color: rgb(253, 253, 253);
+  margin-bottom: 2rem;
+  padding: 2rem;
+}
+nav h1{
+  cursor: pointer;
+}
+nav .nav-links{
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav .nav-links li a{
+  text-decoration: none;
+  color: black;
+}
+nav .nav-links li:hover{
+  color:rgb(73, 46, 104);
+  cursor: pointer;
+  border-bottom: 4px solid rgb(73, 46, 104);
+}
+nav h1{
+  flex: 2 1 40rem;
+}
 /* hero section */
 
 .hero {
@@ -242,11 +268,25 @@ footer{
   align-items: center;
   flex-direction: column;
   font-size: 1.5rem;
-  padding: 1.5rem;
+  padding: 3rem;
   background-color: rgb(241, 241, 241);
 }
+footer h2,p{
+  margin: 0.5rem;
+}
+
+
+
+
+/* Meida Queries */
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .pricing-card p span{ display: none; } 
+}
+
+@media(max-width:1040px){
+  nav h1{
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
