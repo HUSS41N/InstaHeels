@@ -1,7 +1,9 @@
 # InstaHeels
 Theme for an imaginary ladies footwear ecommerce.
+
 Landing Page and Featured Products
 ![alt text](https://github.com/HUSS41N/InstaHeels/blob/main/img/FinalBuild/1.JPG?raw=true)
+
 About Page
 ![alt text](https://github.com/HUSS41N/InstaHeels/blob/main/img/FinalBuild/about.JPG?raw=true)
 
